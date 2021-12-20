@@ -21,3 +21,4 @@
 
 - Run: `npm install`;
 - Run: `nodemon server.js`;
+- On web browser: http://localhost:3000/
