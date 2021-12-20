@@ -5,9 +5,9 @@ const flash = require ('express-flash')
 const session = require ('express-session')
 const dotenv = require('dotenv')
 const methodOverride = require('method-override')
-const routes = require("./config/routes"); // organize routes
+const routes = require("./config/routes") // organize routes
 
-dotenv.config({path: './.env'});
+dotenv.config({path: './.env'})
 
 app.set('view-engine', 'ejs')
 app.use(express.urlencoded({extended: false}))
