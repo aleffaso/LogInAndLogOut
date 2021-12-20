@@ -17,7 +17,7 @@
 
 <hr>
 
-## 2 - Running the application
+## Running the application
 
 - Run: `npm install`;
 - Run: `nodemon server.js`;
