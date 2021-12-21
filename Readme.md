@@ -24,3 +24,8 @@
 - Run: `npm install`;
 - Run: `nodemon server.js`;
 - On web browser: http://localhost:3000/
+
+## Running with Dockerfile
+
+- Run: `docker build -t login_logout_study`;
+- Run: `docker run -p 3000:3000 -d login_logout_study`;
