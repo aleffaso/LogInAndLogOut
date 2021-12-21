@@ -13,7 +13,7 @@
 - Express-Flash => Show error messages;
 - Express-Session => Logged area;
 - Method-Override => Delete logged session;
-- Passport-local => Locally logged
+- Passport-local => Locally logged;
 
 
 <hr>
