@@ -20,7 +20,7 @@
 
 ## Running the application
 
-- add `.env` file into main folder, and put `SESSION_SECRET = secret`;
+- Add `.env` file into main folder, and put `SESSION_SECRET = secret`;
 - Run: `npm install`;
 - Run: `nodemon server.js`;
 - On web browser: http://localhost:3000/
