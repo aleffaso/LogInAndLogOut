@@ -13,12 +13,14 @@
 - Express-Flash => Show error messages;
 - Express-Session => Logged area;
 - Method-Override => Delete logged session;
+- Passport-local => Locally logged
 
 
 <hr>
 
 ## Running the application
 
+- add `.env` file into main folder, and put `SESSION_SECRET = secret`;
 - Run: `npm install`;
 - Run: `nodemon server.js`;
 - On web browser: http://localhost:3000/
