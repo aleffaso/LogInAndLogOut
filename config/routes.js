@@ -4,6 +4,7 @@ const bcrypt = require('bcrypt')
 const passport = require('passport')
 
 const initializePassport = require('./passport')
+const req = require("express/lib/request")
 initializePassport(
     passport, 
     email => users.find(user => user.email === email),
@@ -66,3 +67,4 @@ function checkNotAuthenticated(req, res, next) {
 }
 
 module.exports = routes;
+
